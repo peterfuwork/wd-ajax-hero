@@ -14,10 +14,39 @@ main {
 }
 
 .poster {
-  height: 380px;
   max-width: 100%;
+  max-height: 350px;
 }
 
 #omdb {
   text-decoration: underline;
 }
+
+.waves-effect {
+  font-size: 10px;
+  width:100%;
+}
+
+.card .card-content .card-title {
+  line-height: 20px;
+}
+
+.card .card-title{
+  font-size: 18px;
+}
+
+.truncate{
+  white-space:initial;
+}
+
+ @media(max-width:600px){
+  #listings .col:nth-child(2n+1){
+    clear:left;
+   }
+ }
+ @media(min-width:601px){
+  #listings .col:nth-child(4n+1){
+    clear:left;
+   }
+ }
+
